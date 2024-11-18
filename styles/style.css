@@ -321,7 +321,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  gap: 48px;
+  column-gap: 48px;
 }
 
 .step {
@@ -329,7 +329,7 @@
   padding: 40px;
   border-radius: 8px;
   text-align: left;
-  flex-basis: auto;
+  flex-basis: 0;
 }
 
 .step__title {
@@ -380,6 +380,7 @@
   top: 20px;
   right: 160px;
   margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -387,12 +388,13 @@
   top: 20px;
   right: 20px;
   margin-right: 80px;
+  margin-left: 80px;
 }
 
 .footer__column-heading {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -415,7 +417,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 8px;
+  column-gap: 16px;
 }
 
 .footer__social-icon {
