@@ -321,7 +321,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  column-gap: 48px;
+  column-gap: 40px;
 }
 
 .step {
@@ -329,7 +329,7 @@
   padding: 40px;
   border-radius: 8px;
   text-align: left;
-  flex-basis: 0;
+  flex-basis: 220px;
 }
 
 .step__title {
