@@ -351,46 +351,71 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #7a6d6d;
-  color: #fff;
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding: 60px 80px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
 }
 
 .footer__columns {
-display: flex;
-justify-content: space-evenly;
-}
-
-.footer__column_content_hours {
-}
-
-.footer__column_content_social {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer__logo {
-  color: #fff;
-  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  right: auto;
   width: 58px;
-  bottom: 100px;
+  height: 80px;
+}
+
+.footer__column_content_hours {
+  position: absolute;
+  top: 20px;
+  right: 160px;
+  margin-right: 80px;
+}
+
+.footer__column_content_social {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-right: 80px;
 }
 
 .footer__column-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .footer__list {
-  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
-  
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  margin-bottom: 4px;
+  margin-right: 10px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .footer__social-icon {
@@ -399,4 +424,10 @@ justify-content: space-evenly;
 }
 
 .footer__copyright {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 100px;
 }
